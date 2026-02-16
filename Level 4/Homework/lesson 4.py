@@ -57,6 +57,7 @@ print(f"You are {age} years old")
 Num1 = input()
 Num2 = input()
 print(Num1 + Num2)
+#inputze მათემატიკური ოპერაციები არ სრულდება
 
 
 
