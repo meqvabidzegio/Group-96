@@ -5,7 +5,7 @@ x = "15"
 y = int(x)
 print(y)
 #დავალება 1
-num1 = 10
-num2 = "5"
-int(num2)
-print(num1 +int(num2))
+num1 = int(input())
+num2 = int(input())
+
+print(num1 + num2)
