@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Form</title>
+</head>
+<body>
+
+<h1>Basic HTML Form</h1>
+
+<form>
+
+    <fieldset>
+        <legend>Name</legend>
+
+        <label>First Name:</label><br>
+        <input type="text" name="first_name"><br><br>
+
+        <label>Last Name:</label><br>
+        <input type="text" name="last_name"><br>
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Other Questions</legend>
+
+        <p>Choose a drink:</p>
+        <input type="radio" name="drink" value="coffee"> Coffee<br>
+        <input type="radio" name="drink" value="tea"> Tea<br>
+        <input type="radio" name="drink" value="hot_chocolate"> Hot Chocolate<br>
+
+        <br>
+
+        <p>What ice cream do you like?</p>
+        <input type="checkbox" name="icecream" value="chocolate"> Chocolate<br>
+        <input type="checkbox" name="icecream" value="chocolate_pudding"> Chocolate Pudding<br>
+        <input type="checkbox" name="icecream" value="peanut_butter"> Chocolate Peanut Butter<br>
+        <input type="checkbox" name="icecream" value="vanilla"> Vanilla<br>
+        <input type="checkbox" name="icecream" value="strawberry"> Strawberry<br>
+
+        <br>
+
+        <label>Select a school:</label><br>
+        <select name="school">
+            <option>Harvard</option>
+            <option>MIT</option>
+            <option>Stanford</option>
+        </select>
+
+        <br><br>
+
+        <label>Please provide comments:</label><br>
+        <textarea rows="4" cols="30"></textarea>
+
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
